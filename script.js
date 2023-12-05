@@ -70,10 +70,13 @@ const birth = () => {
 }
 
 /*phase 2 Evolution de mon tama
-1 générer le premier caca
-2 nettoyer mon écran
+
+1 attendre que mon tamastudi ait une première envie 
 3 Il devient grand
 */
+setTimeout(() => {
+    console.log('')
+}, 15000)
 
 //lance la fonction de "début de mon tama"
 start()
